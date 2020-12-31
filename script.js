@@ -1,4 +1,4 @@
-var ogads = document.querySelector('.ogads');
+var ogads = document.querySelectorAll('.ogads');
 
 ogads.forEach((elt)=>{
   elt.addEventListener('click',()=>{
